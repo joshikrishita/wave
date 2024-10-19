@@ -45,11 +45,13 @@ body{
     border-radius:45%;
     background: rgba(255, 255, 255, 1);
     animation:animate 5s linear infinite;
+    
 }
 .wave:after{
     border-radius:40%;
     background: rgba(255, 255, 255, 0.5);
-    animation:animate 10s linear infinite;
+    animation:animate 5s linear infinite;
+   
 }
 @keyframes animate {
     0%{
